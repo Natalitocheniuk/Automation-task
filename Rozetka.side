@@ -1,0 +1,165 @@
+{
+  "id": "52fd85a6-5a5e-4346-85b6-19f57e683e11",
+  "version": "2.0",
+  "name": "R",
+  "url": "https://rozetka.com.ua",
+  "tests": [{
+    "id": "4d60c283-7a7f-4a10-8af2-ba8576061210",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "58c3c92d-cba9-4f64-9775-418720f90b45",
+    "name": "1",
+    "commands": [{
+      "id": "220e9736-55bf-4c0d-b2fe-3ea5199b3f7e",
+      "comment": "",
+      "command": "open",
+      "target": "/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da704dea-1bae-4fc6-933e-1c993f678277",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2fd4bb62-a3fe-4ab4-b757-2141c053d514",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa94962d-09b5-4a2a-a9ab-e3706739bcd9",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "MD506Z/A"
+    }, {
+      "id": "4a847208-11fa-4b48-b9e3-8e58809feece",
+      "comment": "",
+      "command": "click",
+      "target": "css=.suggest-goods__title",
+      "targets": [
+        ["css=.suggest-goods__title", "css:finder"],
+        ["xpath=//span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6c889d3-90e5-49dd-8d47-dd83a7e7bb3d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-prices__big",
+      "targets": [
+        ["css=.product-prices__big", "css:finder"],
+        ["xpath=//div[@id='#scrollArea']/div/div[2]/rz-product-main-info/div[2]/div/div/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'3 666₴')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ecb6680-d9df-49e5-8541-7785c58e9512",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-trade",
+      "targets": [
+        ["css=.product-trade", "css:finder"],
+        ["xpath=//div[@id='#scrollArea']/div/div[2]/rz-product-main-info/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c837a39d-c1bf-4fc8-a92c-d13b3d6dfc8c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button--medium > .buy-button__label",
+      "targets": [
+        ["css=.button--medium > .buy-button__label", "css:finder"],
+        ["xpath=//div[@id='#scrollArea']/div/div[2]/rz-product-main-info/div[2]/div/ul/li/app-product-buy-btn/app-buy-button/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'В кошику')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "831f077b-f3fd-4c78-9fd0-b7fd80082b0b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Apple MagSafe 2 85 Вт для MacBook Pro з 15\" дисплеєм Retina (MD506Z/A)",
+      "targets": [
+        ["linkText=Apple MagSafe 2 85 Вт для MacBook Pro з 15\" дисплеєм Retina (MD506Z/A)", "linkText"],
+        ["css=.cart-product__title", "css:finder"],
+        ["xpath=(//a[contains(text(),'Apple MagSafe 2 85 Вт для MacBook Pro з 15\" дисплеєм Retina (MD506Z/A)')])[3]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://rozetka.com.ua/apple_MD506ZA/p283648/')])[2]", "xpath:href"],
+        ["xpath=//rz-cart-product/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93b8de84-50d4-4e79-9c6a-719c64d92055",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal__close",
+      "targets": [
+        ["css=.modal__close", "css:finder"],
+        ["xpath=(//button[@type='button'])[69]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1fc7fc7-9587-4ba4-85b7-44aaf8415c25",
+      "comment": "",
+      "command": "click",
+      "target": "css=img:nth-child(3)",
+      "targets": [
+        ["css=img:nth-child(3)", "css:finder"],
+        ["xpath=//img[@alt='Rozetka Logo']", "xpath:img"],
+        ["xpath=//picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b4e180c-2216-461c-9efc-e3c3ec5bd540",
+      "comment": "",
+      "command": "click",
+      "target": "css=.counter",
+      "targets": [
+        ["css=.counter", "css:finder"],
+        ["xpath=//rz-icon-counter/span", "xpath:position"],
+        ["xpath=//span[contains(.,'1')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aee44e88-98be-4259-9079-3b5958c0ed4f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal__close",
+      "targets": [
+        ["css=.modal__close", "css:finder"],
+        ["xpath=(//button[@type='button'])[15]", "xpath:attributes"],
+        ["xpath=//div[3]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2e9e522a-e21c-4244-8014-f85658550283",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4d60c283-7a7f-4a10-8af2-ba8576061210"]
+  }],
+  "urls": ["https://rozetka.com.ua/"],
+  "plugins": []
+}
